@@ -1,0 +1,46 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - atom-mocha-test-runner > mocha > debug:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: 'npm:debug:20170905'
+        path: atom-mocha-test-runner > mocha > debug
+    - standard > eslint > debug:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: 'npm:debug:20170905'
+        path: standard > eslint > debug
+  'npm:hoek:20180212':
+    - atom-mocha-test-runner > less > request > hawk > hoek:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: 'npm:hoek:20180212'
+        path: atom-mocha-test-runner > less > request > hawk > hoek
+    - atom-mocha-test-runner > less > request > hawk > boom > hoek:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: 'npm:hoek:20180212'
+        path: atom-mocha-test-runner > less > request > hawk > boom > hoek
+    - atom-mocha-test-runner > less > request > hawk > sntp > hoek:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: 'npm:hoek:20180212'
+        path: atom-mocha-test-runner > less > request > hawk > sntp > hoek
+    - atom-mocha-test-runner > less > request > hawk > cryptiles > boom > hoek:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          atom-mocha-test-runner > less > request > hawk > cryptiles > boom >
+          hoek
+  SNYK-JS-LODASH-567746:
+    - standard > eslint > lodash:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: SNYK-JS-LODASH-567746
+        path: standard > eslint > lodash
+    - standard > eslint > inquirer > lodash:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: SNYK-JS-LODASH-567746
+        path: standard > eslint > inquirer > lodash
+    - standard > eslint > table > lodash:
+        patched: '2025-02-13T14:03:53.216Z'
+        id: SNYK-JS-LODASH-567746
+        path: standard > eslint > table > lodash
